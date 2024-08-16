@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Em busca do One Piece</title>
+</head>
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.jpg" alt="">
+        <p>Há alguns dias, ao ler um livro em uma biblioteca famosa da minha cidade, encontrei um carta misteriosa que indica que existe um baú de tesouros, supostamente repleto de relíquias valiosas e antigas. Desde então, não consigo parar de pensar em encontrar esse tesouro e desvendar os segredos que ele guarda.</p>
+        <button class="btn-proximo" data-proximo="1">Vá para São Paulo</button>
+        <button class="btn-proximo" data-proximo="2">Vá para Maceió</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Você começa sua jornada em São Paulo e segue para Ubatuba, onde, ao amanhecer, explora a Ilha das Couves para encontrar a próxima pista que o levará ao tesouro.</p>
+        <button class="btn-proximo" data-proximo="3">Investigue a Ilha das Couves</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar pra casa</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Em Maceió, você visita a histórica cidade de Marechal Deodoro. Na carta, uma das pistas indica que, para localizar a entrada para o baú do tesouro, você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+        <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+        <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Na Ilha das Couves, você encontra uma antiga inscrição que aponta que a próxima pista está localizada em Paraty, uma cidade repleta de histórias de tesouros e mistérios.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para Paraty</button>
+    </div>
+    <div class="passo" id="passo-4">
+        <img src="cenario-passo4.avif" alt="Imagem voltando para casa e desistindo da aventura">
+        <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Nas igrejas de Marechal Deodoro, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima pista está em Paraty.</p>
+        <button class="btn-proximo" data-proximo="7">Viajar para Paraty</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+        <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>Em Paraty, a busca pelo tesouro perdido se intensifica. Você se depara com um antigo poço de pedra que parece esconder um segredo.</p>
+        <button class="btn-proximo" data-proximo="9">Ir investigar o poço</button>
+        <button class="btn-proximo" data-proximo="10">Achar que é perigoso demais e não ir</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para Paraty!</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para Paraty</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>O poço à esquerda estava seco e possuía uma escada que levava para baixo. Ao descer, você encontra uma caverna oculta com inscrições antigas que revelam a entrada do baú do tesouro.</p>
+        <button class="btn-proximo" data-proximo="11">Explorar a caverna misteriosa</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Você volta pra casa arrependido por não ter explorado o poço e perde a oportunidade de achar um tesouro perdido.</p>
+        <img src="cenario-passo4.avif" alt="">
+        <button class="btn-proximo" data-proximo="12">Retornar e explorar o poço</button>
+    </div>
+    <div class="passo" id="passo-11">
+        <img src="cenario.passo-11.webp" alt="Encontrando uma cidade maravilhosa perdida no Amazonas">
+        <p>Dentro do poço, você descobre um tesouro escondido e decide se dedicar a estudar e preservar esse lugar fascinante.</p>
+    </div>
+    <div class="passo" id="passo-12">
+        <p>Retornando e explorando o poço, você finalmente encontra o lugar que se encontra o baú de tesouro.</p>
+        <button class="btn-proximo" data-proximo="11">Explorar o poço</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
